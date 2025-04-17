@@ -52,5 +52,5 @@ def check_and_download_data(root_data_dir):
         download_file(file["url"], file["dest"])
 
 if __name__ == "__main__":
-    root_data_dir = "/data" #update the path to desired destination folder.
+    root_data_dir = "/data" # update the path to desired destination folder.
     check_and_download_data(root_data_dir)
